@@ -73,14 +73,13 @@ button {
 	border: none;
 	transition: all 0.5s;
 }
-
 button:hover {
-	background: #27c274;
+	background: #27c274 !important;
+	color: white !important;
 }
 
 iframe {
 	border: none;
-	margin-bottom: 50px;
 }
 #userlike-container iframe{
 	margin-bottom: -5px;
@@ -502,6 +501,7 @@ ul.header-list li {
 .video {
 	margin-top: 38px;
 	border:none;
+	margin-bottom: 40px;
 }
 
 .video iframe {
@@ -957,7 +957,7 @@ iframe{
 }
 .img-comprar{
 	width: 100%;
-	height: 50%;
+	height: 200px;
 }
 .card {
 	margin: 30px;
@@ -975,3 +975,57 @@ iframe{
 		margin: 30px;
 	}
 }
+
+#banner-video {
+	color: white;
+	font-size: 40px;
+	text-align: center;
+}
+
+:root {
+	--jumbotron-padding-y: 3rem;
+  }
+  
+  .jumbotron {
+	padding-top: var(--jumbotron-padding-y);
+	padding-bottom: var(--jumbotron-padding-y);
+	margin-bottom: 0;
+	background-color: #fff;
+  }
+  @media (min-width: 768px) {
+	.jumbotron {
+	  padding-top: calc(var(--jumbotron-padding-y) * 2);
+	  padding-bottom: calc(var(--jumbotron-padding-y) * 2);
+	}
+  }
+  
+  .jumbotron p:last-child {
+	margin-bottom: 0;
+  }
+  
+  .jumbotron-heading {
+	font-weight: 300;
+  }
+  
+  .jumbotron .container {
+	max-width: 40rem;
+  }
+  
+
+  
+  .box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+
+  .album-header {
+	  text-align: center;
+	  padding: 30px;
+  }
+  .card-body {
+	  text-align: center;
+  }
+
+  .card-body button {
+	  background-color: #2980b9;
+	  font-size: 20px;
+	  margin-bottom: 10px;
+	  border-radius: 100px;
+  }
