@@ -952,19 +952,14 @@ iframe{
 	height: 200px;
 }
 .card {
-	margin: 30px;
 	width: 100%;
 	height: 100%;
-
 }
 
 @media (max-width:945px){
 	.comprar-section{
 		flex-flow: column;
 		align-items: center;
-	}
-	.card {
-		margin: 30px;
 	}
 }
 
